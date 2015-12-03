@@ -1,0 +1,14 @@
+{% extends "deployment_demo/base.html" %}
+{% load static %}
+
+{% block page_title %}Welcome to the AcTS Open House!{% endblock %}
+
+{% block breadcrumb %}
+{% endblock %}
+
+{% block content %}
+<h2>These people have deployed code to the cloud!</h2>
+{% for attendee in attendees %}
+  <h4>{{ attendee }}</h4>
+{% endfor %}
+{% endblock content %}
