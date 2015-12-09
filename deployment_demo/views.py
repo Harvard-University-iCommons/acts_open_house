@@ -11,6 +11,7 @@ def index(request):
         'Test Person',
         'Anthony Moulen',
         'Rose Nyameke',
+        'Annie Rota',
         'David Heitmeyer',
         'Hiu Kei Chow',
         'Angry Panda',
