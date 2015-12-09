@@ -19,7 +19,7 @@ def index(request):
         'Angry Panda',
         'Yoda',
         'Rose is the best.',
-        'Alan',
+        'Alan','Randy',
     ]
     context = {
         'attendees': attendees
