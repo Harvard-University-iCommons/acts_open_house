@@ -5,9 +5,9 @@ from django.shortcuts import render
 
 def index(request):
     attendees = [
-        'Jaime Bermudez',
-        'Ethan Kiczek',
-        'Colin Murtaugh',
+        'Jaime B.',
+        'Ethan K.',
+        'Colin M.',
     ]
     context = {
         'attendees': attendees
