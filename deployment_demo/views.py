@@ -13,7 +13,7 @@ def index(request):
         'Rose Nyameke',
         'David Heitmeyer',
         'Hiu Kei Chow',
-        'Angry Panda'
+        'Angry Panda',
     ]
     context = {
         'attendees': attendees
