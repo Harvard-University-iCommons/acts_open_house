@@ -22,7 +22,8 @@ def index(request):
         'Rose is the best.',
         'Alan','Randy','Saul',
         'Marlee',
-        'Ellen'
+        'Ellen',
+        'Ethan',
     ]
     context = {
         'attendees': attendees
