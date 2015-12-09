@@ -10,7 +10,8 @@ def index(request):
         'Colin Murtaugh',
         'Test Person',
         'Anthony Moulen',
-        'Rose Nyameke'
+        'Rose Nyameke',
+        'David Heitmeyer'
     ]
     context = {
         'attendees': attendees
