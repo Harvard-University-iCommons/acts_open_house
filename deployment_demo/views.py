@@ -18,6 +18,7 @@ def index(request):
         'Hiu Kei Chow',
         'Angry Panda',
         'Yoda',
+        'Becca',
         'Rose is the best.',
         'Alan','Randy','Saul',
         'Marlee'
