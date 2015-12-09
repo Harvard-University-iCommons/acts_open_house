@@ -5,6 +5,7 @@ from django.shortcuts import render
 
 def index(request):
     attendees = [
+        'Rebecca Miller',
         'Jaime Bermudez',
         'Ethan Kiczek',
         'Colin Murtaugh',
