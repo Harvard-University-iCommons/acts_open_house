@@ -10,7 +10,6 @@ def index(request):
         'Jaime Bermudez',
         'Ethan Kiczek',
         'Colin Murtaugh',
-        'Test Person',
         'Anthony Moulen',
         'Rose Nyameke',
         'Annie Rota',
