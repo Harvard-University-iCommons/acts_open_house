@@ -5,25 +5,8 @@ from django.shortcuts import render
 
 def index(request):
     attendees = [
-        'Kevin Donovan',
-        'Rebecca Miller',
         'Jaime Bermudez',
-        'Ethan Kiczek',
         'Colin Murtaugh',
-        'Anthony Moulen',
-        'Rose Nyameke',
-        'Annie Rota',
-        'David Heitmeyer',
-        'Hiu Kei Chow',
-        'Angry Panda',
-        'Yoda',
-        'Becca',
-        'Rose is the best.',
-        'Alan','Randy','Saul',
-        'Marlee',
-        'Ellen',
-        'Ethan',
-        'badgerbadger',
     ]
     context = {
         'attendees': attendees
